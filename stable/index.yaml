@@ -1,9 +1,32 @@
 apiVersion: v1
 entries:
+  hello2:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-27T06:44:21.441839627Z"
+    description: Sample helm chart for study
+    digest: d1752071caa9084ce3cabf18221d80e5429ac681cce324f8566ba02f07c5793a
+    engine: gotpl
+    home: https://moonapro.github.io/helmcherts/stable
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: moonapro@gmail.com
+      name: MoonKD
+    name: hello2
+    sources:
+    - https://github.com/happycloudpak/helm-charts/tree/master/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - hello2-0.1.0.tgz
+    version: 0.1.0
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-27T02:29:00.587967167Z"
+    created: "2019-09-27T06:44:21.443563367Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +49,4 @@ entries:
     urls:
     - redis-9.2.0.tgz
     version: 9.2.0
-generated: "2019-09-27T02:29:00.586028091Z"
+generated: "2019-09-27T06:44:21.441048259Z"
